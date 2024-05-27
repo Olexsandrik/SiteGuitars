@@ -1,8 +1,8 @@
-@import "/node_modules/normalize.css/normalize.css";
-@import "/css/header-nav.partial.css";
-@import "/css/global.css";
-@import "/css/section-carusel.partial.css";
-@import "/css/footer.info.partial.css";
-@import "/css/index.catalog.partial.css";
-@import "/css/index.gameClicker.partial.css"
+@import "./node_modules/normalize.css/normalize.css";
+@import "./css/header-nav.partial.css";
+@import "./css/global.css";
+@import "./css/section-carusel.partial.css";
+@import "./css/footer.info.partial.css";
+@import "./css/index.catalog.partial.css";
+@import "./css/index.gameClicker.partial.css"
 
