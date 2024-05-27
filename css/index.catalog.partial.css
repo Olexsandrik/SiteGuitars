@@ -1,0 +1,20 @@
+.section{
+   
+    margin: 50px;
+  
+    .catalog_container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        text-align: center;
+        .category_img img{
+            text-align: center;
+            cursor: pointer;
+            width: 50%;
+     
+        }
+    
+    }
+    
+  
+}

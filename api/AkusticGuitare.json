@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "name": "Yamaha FG800",
+        "img": "https://guitarhouse.com.ua/content/images/5/367x900l80mc0/14365993947600.webp",
+        "shortname": "yamaha_fg800",
+        "description": "Популярна акустична гітара з відмінним звуком і зручністю гри.",
+        "price": 200
+    },
+    {
+        "id": 2,
+        "name": "Fender CD-60S",
+        "img": "https://guitarhouse.com.ua/content/images/9/232x600l80mc0/fender-cd-60s-natural-wn-gitara-akustichna-33557767504793.webp",
+        "shortname": "fender_cd60s",
+        "description": "Надійна гітара з чудовим співвідношенням ціна-якість, ідеально підходить для початківців.",
+        "price": 150
+    },
+    {
+        "id": 3,
+        "name": "Taylor 214ce",
+        "img": "https://guitarhouse.com.ua/content/images/48/736x1800l80mc0/47584072073918.webp",
+        "shortname": "taylor_214ce",
+        "description": "Професійна гітара з виразним звучанням і відмінною якістю збірки.",
+        "price": 1000
+    },
+    {
+        "id": 4,
+        "name": "Gibson J-45",
+        "img": "https://w7.pngwing.com/pngs/878/764/png-transparent-brown-acoustic-guitar-acoustic-electric-guitar-takamine-guitars-acoustic-guitar-dreadnought-acoustic-guitar-pickup-guitar-accessory-cuatro-thumbnail.png",
+        "shortname": "gibson_j45",
+        "description": "Легендарна акустична гітара з багатим тоном і вишуканим дизайном.",
+        "price": 2500
+    }
+]
+

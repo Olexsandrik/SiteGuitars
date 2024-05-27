@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "name": "Fender Stratocaster",
+        "img": "https://guitarhouse.com.ua/content/images/5/367x900l80mc0/fender-stratocaster.webp",
+        "shortname": "fender_stratocaster",
+        "description": "Класична електрогітара з універсальним звучанням і високою якістю збірки.",
+        "price": 700
+    },
+    {
+        "id": 2,
+        "name": "Gibson Les Paul Standard",
+        "img": "https://guitarhouse.com.ua/content/images/9/232x600l80mc0/gibson-les-paul-standard.webp",
+        "shortname": "gibson_les_paul_standard",
+        "description": "Легендарна гітара з потужним звуком і класичним дизайном.",
+        "price": 1500
+    },
+    {
+        "id": 3,
+        "name": "Ibanez RG450DX",
+        "img": "https://guitarhouse.com.ua/content/images/48/736x1800l80mc0/ibanez-rg450dx.webp",
+        "shortname": "ibanez_rg450dx",
+        "description": "Високошвидкісна гітара з чудовою іграбельністю і агресивним звучанням.",
+        "price": 500
+    },
+    {
+        "id": 4,
+        "name": "PRS SE Custom 24",
+        "img": "https://w7.pngwing.com/pngs/878/764/png-transparent-prs-se-custom-24-electric-guitar-thumbnail.png",
+        "shortname": "prs_se_custom_24",
+        "description": "Гітара з відмінним тоном та універсальністю, популярна серед професіоналів.",
+        "price": 800
+    }
+]
+
