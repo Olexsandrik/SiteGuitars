@@ -2,7 +2,7 @@ async function fetchDataFromMultipleFiles() {
     const [categoriesResponse, electronikResponse, clothingResponse,BookResponse,foodsResponse] = await Promise.all([
         fetch('./api/categories.json'),
         fetch('./api/AkusticGuitare.json'),
-        fetch('./api/things.json'),
+        fetch('./api/ClasicGuitars.json'),
         fetch('./api/BassGuitar.json'),
         fetch('./api/ElectrucGuitar.json')
     ]);
@@ -26,8 +26,10 @@ const navMenuChildren = container_nav_menu.children;
 
 if (navMenuChildren.length >= 4) {
     container_nav_menu.removeChild(navMenuChildren[4]);
+
 }
 specialsLinkInserted = false;
+
 }
 
 async function loadCatalog() {
@@ -35,7 +37,9 @@ try {
     const data = await fetchDataFromMultipleFiles();
     const categories = data.categoriesData;
     const content = document.getElementById('content');
+    
     const container_nav_menu = document.querySelector(".menu__list");
+    document.querySelector(".section").style.minWidth="600px";
     content.innerHTML = '';
 
     for (const category of categories) {
@@ -111,6 +115,8 @@ content.innerHTML="";
 const data = await fetchDataFromMultipleFiles();
 let categories = null;
     
+
+
 if(id==1){
      categories = data.electronikData;
 }
@@ -130,7 +136,6 @@ else if(id==4){
                 <div class="category_img">
                     <a href="#" class="mainLink" id="${category.id}"><img src="${category.img}" alt="img"></a>
                 </div>
-
                 <div class="category_shortname">${category.shortname}</div>
                 <div class="category_name">${category.name}</div>
                 <div class="category_discription">${category.description}</div>
@@ -157,7 +162,7 @@ homePage.addEventListener("click", function(){
 
 });
 loadMainCatalog.addEventListener("click", function(){
-    document.querySelector(".section").style.minWidth="600px";
+   
     loadCatalog();
     
 });
