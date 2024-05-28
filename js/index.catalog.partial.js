@@ -1,18 +1,20 @@
 async function fetchDataFromMultipleFiles() {
-    const [categoriesResponse, electronikResponse, clothingResponse,BookResponse,foodsResponse] = await Promise.all([
+    const [categoriesResponse, Akustic, Electro,Bass,Classic] = await Promise.all([
         fetch('./api/categories.json'),
         fetch('./api/AkusticGuitare.json'),
-        fetch('./api/ClasicGuitars.json'),
+        fetch('./api/ElectroGuitars.json'),
         fetch('./api/BassGuitar.json'),
-        fetch('./api/ElectrucGuitar.json')
+        fetch('./api/ClassicGuitare.json')
     ]);
-    const categoriesData = await categoriesResponse.json();
-    const electronikData = await electronikResponse.json();
-    const clothingData = await clothingResponse.json();
-    const BookData = await BookResponse.json();
-    const FoodsData = await foodsResponse.json();
 
-    return { categoriesData, electronikData,clothingData,BookData,FoodsData};
+    const categoriesData = await categoriesResponse.json();
+    const AkusticData = await Akustic.json();
+    const ElectroData = await Electro.json();
+    const BassData = await Bass.json();
+    const ClassicData = await Classic.json();
+   
+
+    return { categoriesData, AkusticData,ElectroData,BassData,ClassicData};
 }
 
 let specialsLinkInserted = false;
@@ -118,16 +120,16 @@ let categories = null;
 
 
 if(id==1){
-     categories = data.electronikData;
+     categories = data.AkusticData;
 }
 else if(id==2){
-    categories = data.clothingData;
+    categories = data.ElectroData;
 }
 else if(id==3){
-    categories= data.BookData;
+    categories= data.ClassicData;
 }
 else if(id==4){
-    categories= data.FoodsData;
+    categories= data.BassData;
 }
 
     for (const category of categories) {

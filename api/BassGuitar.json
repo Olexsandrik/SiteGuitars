@@ -1,34 +1,35 @@
 [
     {
         "id": 1,
-        "name": "Яблуко",
-        "img": "../img/foods/foods.png",
-        "shortname": "apple",
-        "description": "Свіже червоне яблуко.",
-        "price": 1
+        "name": "Fender Stratocaster",
+        "img": "https://place-hold.it/300x500/666?text=Guitar",
+        "shortname": "fender_stratocaster",
+        "description": "Класична електрогітара з універсальним звучанням і високою якістю збірки.",
+        "price": 700
     },
     {
         "id": 2,
-        "name": "Молоко",
-        "img": "../img/foods/foods.png",
-        "shortname": "milk",
-        "description": "Натуральне коров'яче молоко.",
-        "price": 1.5
+        "name": "Gibson Les Paul Standard",
+        "img": "https://place-hold.it/300x500/666?text=Guitar",
+        "shortname": "gibson_les_paul_standard",
+        "description": "Легендарна гітара з потужним звуком і класичним дизайном.",
+        "price": 1500
     },
     {
         "id": 3,
-        "name": "Хліб",
-        "img": "../img/foods/foods.png",
-        "shortname": "bread",
-        "description": "Свіжоспечений пшеничний хліб.",
-        "price": 2
+        "name": "Ibanez RG450DX",
+        "img": "https://place-hold.it/300x500/666?text=Guitar",
+        "shortname": "ibanez_rg450dx",
+        "description": "Високошвидкісна гітара з чудовою іграбельністю і агресивним звучанням.",
+        "price": 500
     },
     {
         "id": 4,
-        "name": "Сир",
-        "img": "../img/foods/foods.png",
-        "shortname": "cheese",
-        "description": "Витриманий твердий сир.",
-        "price": 5
+        "name": "PRS SE Custom 24",
+        "img": "https://place-hold.it/300x500/666?text=Guitar",
+        "shortname": "prs_se_custom_24",
+        "description": "Гітара з відмінним тоном та універсальністю, популярна серед професіоналів.",
+        "price": 800
     }
 ]
+
