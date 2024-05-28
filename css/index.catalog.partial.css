@@ -2,19 +2,21 @@
    
     margin: 50px;
   
-    .catalog_container{
+ 
+    .catalog_container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         gap: 20px;
+        max-width: 100%;
         text-align: center;
-        .category_img img{
+        .category_img img {
             text-align: center;
             cursor: pointer;
             width: 50%;
-     
         }
-    
     }
+    
+   
     
   
 }
